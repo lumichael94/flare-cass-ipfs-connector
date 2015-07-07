@@ -1,0 +1,3 @@
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|172.31.28.240|274339|{'page_size': '100', 'query': 'DROP KEYSPACE test ;'}|Execute CQL3 query|2015-07-06 18:33:24+0000
+41188950-240d-11e5-b66b-c191fdd76ef4|172.31.28.240|194|{'page_size': '5000', 'query': 'USE test ;'}|Execute CQL3 query|2015-07-06 18:31:44+0000
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|172.31.28.240|314625|{'page_size': '100', 'query': 'DROP KEYSPACE test ;'}|Execute CQL3 query|2015-07-06 18:29:15+0000

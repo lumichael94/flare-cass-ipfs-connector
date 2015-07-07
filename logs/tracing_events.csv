@@ -1,0 +1,265 @@
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1c6a80-240d-11e5-b66b-c191fdd76ef4|Parsing DROP KEYSPACE test ;|172.31.28.240|51|SharedPool-Worker-1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1c6a81-240d-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|168|SharedPool-Worker-1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1c6a82-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_keyspaces|172.31.28.240|721|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1c9190-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|732|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cb8a0-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|778|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cb8a1-240d-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 17|172.31.28.240|870|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cb8a2-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|878|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cb8a3-240d-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|1609|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cdfb0-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|1619|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cdfb1-240d-11e5-b66b-c191fdd76ef4|Read 3 live and 0 tombstone cells|172.31.28.240|1662|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1cdfb2-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_columnfamilies|172.31.28.240|1803|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d06c0-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|1811|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d06c1-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|1836|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d06c2-240d-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 16|172.31.28.240|1901|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d2dd0-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|1908|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d2dd1-240d-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 15|172.31.28.240|2408|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d2dd2-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|2415|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d54e0-240d-11e5-b66b-c191fdd76ef4|Skipped 0/3 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|2655|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d54e1-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 2 sstables|172.31.28.240|2665|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d54e2-240d-11e5-b66b-c191fdd76ef4|Read 25 live and 2 tombstone cells|172.31.28.240|2731|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d7bf0-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_usertypes|172.31.28.240|2885|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d7bf1-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|2893|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1d7bf2-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|2922|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1da300-240d-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 12|172.31.28.240|2969|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1da301-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|2975|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1da302-240d-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|3265|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1da303-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|3275|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1df120-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|3290|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1df121-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|3388|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1df122-240d-11e5-b66b-c191fdd76ef4|Adding to IndexInfo memtable|172.31.28.240|3510|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1e1830-240d-11e5-b66b-c191fdd76ef4|Adding to schema_columnfamilies memtable|172.31.28.240|3706|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1e1831-240d-11e5-b66b-c191fdd76ef4|Adding to schema_columns memtable|172.31.28.240|3895|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1e1832-240d-11e5-b66b-c191fdd76ef4|Adding to schema_keyspaces memtable|172.31.28.240|4111|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1e1833-240d-11e5-b66b-c191fdd76ef4|Adding to schema_triggers memtable|172.31.28.240|4291|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c1e3f40-240d-11e5-b66b-c191fdd76ef4|Adding to schema_usertypes memtable|172.31.28.240|4473|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c282a50-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_keyspaces|172.31.28.240|78937|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c282a51-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|78953|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c285160-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|78983|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c285161-240d-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 18|172.31.28.240|79102|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c289f80-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|79110|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c289f81-240d-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|79273|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c28c690-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|79283|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c28c691-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|79301|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c28c692-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_columnfamilies|172.31.28.240|79436|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c28eda0-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|79444|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c28eda1-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|79473|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2914b0-240d-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 18|172.31.28.240|79521|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2914b1-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|79527|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c29ff10-240d-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|79707|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2a9b50-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|79717|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ac260-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|79732|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ac261-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_usertypes|172.31.28.240|79846|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ac262-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|79854|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ae970-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|79892|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b1080-240d-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 13|172.31.28.240|79993|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b1081-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|80001|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b3790-240d-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|81168|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b3791-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|81187|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b3792-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|81202|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b5ea0-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|86965|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b5ea1-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|87125|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b5ea2-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|94107|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2b5ea3-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|94207|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2c7010-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|108371|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2c9720-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|108387|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2c9721-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|108545|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2cbe30-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 18|172.31.28.240|108585|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2cbe31-240d-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 17|172.31.28.240|108624|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ce540-240d-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|108631|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ce541-240d-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|108810|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2ce542-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|108821|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2d0c50-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|108844|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2d5a70-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|113803|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2d8180-240d-11e5-b66b-c191fdd76ef4|Adding to local memtable|172.31.28.240|113869|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2f0821-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|125682|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2f2f31-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|125771|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2f2f32-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|126126|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c2f2f33-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|126207|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c301990-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|132090|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c3040a0-240d-11e5-b66b-c191fdd76ef4|Adding to size_estimates memtable|172.31.28.240|132162|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c343840-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|157126|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c345f50-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|157137|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c345f51-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|157166|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c348660-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 18|172.31.28.240|157201|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c348661-240d-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|157216|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c348662-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 0 sstables|172.31.28.240|157224|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c34ad70-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|157238|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c35e5f1-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|170078|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c35e5f2-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|170550|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c37bab0-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|172941|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c37bab1-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|172953|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c37bab2-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|172981|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c37e1c0-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 19|172.31.28.240|173030|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c394150-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 18|172.31.28.240|173050|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c396860-240d-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|173063|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c396861-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 0 sstables|172.31.28.240|173072|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c39b680-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|173091|MemtableFlushWriter:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c421af0-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|250410|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c426910-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|250426|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c429020-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|250459|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c437a80-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 20|172.31.28.240|250709|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c437a81-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 19|172.31.28.240|250729|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c43a190-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 18|172.31.28.240|250747|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c43a191-240d-11e5-b66b-c191fdd76ef4|Skipped 0/3 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|250760|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c43efb0-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 0 sstables|172.31.28.240|250768|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c43efb1-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|250792|MemtableFlushWriter:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4416c0-240d-11e5-b66b-c191fdd76ef4|Parsing INSERT INTO system.compactions_in_progress (id, keyspace_name, columnfamily_name, inputs) VALUES (?, ?, ?, ?)|172.31.28.240|253529|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c443dd0-240d-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|253762|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4464e0-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|253992|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c44da10-240d-11e5-b66b-c191fdd76ef4|Adding to compactions_in_progress memtable|172.31.28.240|254224|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c44da11-240d-11e5-b66b-c191fdd76ef4|Executing seq scan across 2 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|264734|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c450120-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|267926|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c450121-240d-11e5-b66b-c191fdd76ef4|Read 3 live and 0 tombstone cells|172.31.28.240|267987|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c450122-240d-11e5-b66b-c191fdd76ef4|Read 3 live and 0 tombstone cells|172.31.28.240|268026|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c450123-240d-11e5-b66b-c191fdd76ef4|Scanned 3 rows and matched 3|172.31.28.240|268077|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c452830-240d-11e5-b66b-c191fdd76ef4|Executing seq scan across 1 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|268396|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c452831-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|268642|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c457650-240d-11e5-b66b-c191fdd76ef4|Read 427 live and 32 tombstone cells|172.31.28.240|269108|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c457651-240d-11e5-b66b-c191fdd76ef4|Read 50 live and 0 tombstone cells|172.31.28.240|270400|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c459d60-240d-11e5-b66b-c191fdd76ef4|Scanned 3 rows and matched 3|172.31.28.240|270445|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c459d61-240d-11e5-b66b-c191fdd76ef4|Executing seq scan across 1 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|270590|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c459d62-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|270852|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45c470-240d-11e5-b66b-c191fdd76ef4|Read 583 live and 264 tombstone cells|172.31.28.240|271789|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45c471-240d-11e5-b66b-c191fdd76ef4|Read 58 live and 0 tombstone cells|172.31.28.240|271869|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45c472-240d-11e5-b66b-c191fdd76ef4|Scanned 3 rows and matched 3|172.31.28.240|271908|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45eb80-240d-11e5-b66b-c191fdd76ef4|Executing seq scan across 1 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|272051|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45eb81-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|272286|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45eb82-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|272324|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c45eb83-240d-11e5-b66b-c191fdd76ef4|Scanned 2 rows and matched 2|172.31.28.240|272361|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c461290-240d-11e5-b66b-c191fdd76ef4|Executing seq scan across 1 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|272505|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4639a0-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|272757|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4639a1-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|272795|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4687c0-240d-11e5-b66b-c191fdd76ef4|Scanned 2 rows and matched 2|172.31.28.240|272832|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4687c1-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|273977|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c46aed0-240d-11e5-b66b-c191fdd76ef4|Adding to local memtable|172.31.28.240|274041|MigrationStage:1
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4b1ba1-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|309346|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c4b69c0-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|309445|CompactionExecutor:5
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c54b890-240d-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|372346|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c54dfa0-240d-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|372366|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c54dfa1-240d-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|372401|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c54dfa2-240d-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 21|172.31.28.240|372437|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c54dfa3-240d-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|372452|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c5506b0-240d-11e5-b66b-c191fdd76ef4|Merging data from memtables and 0 sstables|172.31.28.240|372460|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c5506b1-240d-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|372475|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c561820-240d-11e5-b66b-c191fdd76ef4|Parsing DELETE FROM system.compactions_in_progress WHERE id = ?|172.31.28.240|381111|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c561821-240d-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|381241|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c563f30-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|381310|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c563f31-240d-11e5-b66b-c191fdd76ef4|Adding to compactions_in_progress memtable|172.31.28.240|381358|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c5813f0-240d-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|393617|CompactionExecutor:6
+7c1bf550-240d-11e5-b66b-c191fdd76ef4|7c5813f1-240d-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|393710|CompactionExecutor:6
+41188950-240d-11e5-b66b-c191fdd76ef4|4118b060-240d-11e5-b66b-c191fdd76ef4|Parsing USE test ;|172.31.28.240|55|SharedPool-Worker-1
+41188950-240d-11e5-b66b-c191fdd76ef4|4118d770-240d-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|174|SharedPool-Worker-1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80dbc90-240c-11e5-b66b-c191fdd76ef4|Parsing DROP KEYSPACE test ;|172.31.28.240|688|SharedPool-Worker-1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80de3a0-240c-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|1216|SharedPool-Worker-1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80de3a1-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_keyspaces|172.31.28.240|9138|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e0ab0-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|9150|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e0ab1-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|9208|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e31c0-240c-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 13|172.31.28.240|9382|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e31c1-240c-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|9391|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e58d0-240c-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|9623|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e7fe0-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|9634|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80e7fe1-240c-11e5-b66b-c191fdd76ef4|Read 3 live and 0 tombstone cells|172.31.28.240|9671|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80ea6f0-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_columnfamilies|172.31.28.240|9882|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80ea6f1-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|9890|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80ece00-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|9919|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80ece01-240c-11e5-b66b-c191fdd76ef4|Key cache hit for sstable 14|172.31.28.240|9977|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80ef510-240c-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|9984|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80ef511-240c-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|10158|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f1c20-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|10169|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f1c21-240c-11e5-b66b-c191fdd76ef4|Read 25 live and 0 tombstone cells|172.31.28.240|10252|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f4330-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_usertypes|172.31.28.240|10446|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f4331-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|10454|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f4332-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|10477|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f6a40-240c-11e5-b66b-c191fdd76ef4|Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|10506|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f6a41-240c-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|10596|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f9150-240c-11e5-b66b-c191fdd76ef4|Adding to IndexInfo memtable|172.31.28.240|10750|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f9151-240c-11e5-b66b-c191fdd76ef4|Adding to schema_columnfamilies memtable|172.31.28.240|10998|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80f9152-240c-11e5-b66b-c191fdd76ef4|Adding to schema_columns memtable|172.31.28.240|11082|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80fb860-240c-11e5-b66b-c191fdd76ef4|Adding to schema_keyspaces memtable|172.31.28.240|11164|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80fb861-240c-11e5-b66b-c191fdd76ef4|Adding to schema_triggers memtable|172.31.28.240|11246|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e80fdf70-240c-11e5-b66b-c191fdd76ef4|Adding to schema_usertypes memtable|172.31.28.240|11329|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81bed60-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_keyspaces|172.31.28.240|107945|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c1470-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|107962|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c1471-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|107998|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c3b80-240c-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 14|172.31.28.240|108123|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c3b81-240c-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|108131|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c3b82-240c-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|108333|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c6290-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|108343|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c6291-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|108365|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c89a0-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_columnfamilies|172.31.28.240|108553|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81c89a1-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|108573|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81cb0b0-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|108602|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81cb0b1-240c-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 15|172.31.28.240|108698|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81cb0b2-240c-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|108706|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81cd7c0-240c-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|108855|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81cfed0-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|108875|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81cfed1-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|108892|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d25e0-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on schema_usertypes|172.31.28.240|109053|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d25e1-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|109060|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d4cf0-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|109087|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d4cf1-240c-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 12|172.31.28.240|109181|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d7400-240c-11e5-b66b-c191fdd76ef4|Seeking to partition beginning in data file|172.31.28.240|109189|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d7401-240c-11e5-b66b-c191fdd76ef4|Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|109314|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d7402-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 1 sstables|172.31.28.240|109324|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d9b10-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|109340|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81d9b11-240c-11e5-b66b-c191fdd76ef4|Parsing DELETE truncated_at[?] from system.local WHERE key = 'local'|172.31.28.240|117103|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81de930-240c-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|120407|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81e1040-240c-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|121182|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e81e1041-240c-11e5-b66b-c191fdd76ef4|Adding to local memtable|172.31.28.240|121260|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8208140-240c-11e5-b66b-c191fdd76ef4|Parsing DELETE FROM system.size_estimates WHERE keyspace_name = ? AND table_name = ?|172.31.28.240|137315|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8208141-240c-11e5-b66b-c191fdd76ef4|Preparing statement|172.31.28.240|137511|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e820a850-240c-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|137634|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e820a851-240c-11e5-b66b-c191fdd76ef4|Adding to size_estimates memtable|172.31.28.240|137695|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e82403b0-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|160566|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8249ff0-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|160586|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e824c700-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|160619|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e824c701-240c-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 15|172.31.28.240|160667|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e824c702-240c-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 14|172.31.28.240|160689|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e824ee10-240c-11e5-b66b-c191fdd76ef4|Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|160703|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e824ee11-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 0 sstables|172.31.28.240|160711|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8251520-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|160738|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8273800-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|179365|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8275f10-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|179378|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8275f11-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|179407|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8278620-240c-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 16|172.31.28.240|179445|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8278621-240c-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 15|172.31.28.240|179464|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e827ad30-240c-11e5-b66b-c191fdd76ef4|Bloom filter allows skipping sstable 14|172.31.28.240|179481|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e827ad31-240c-11e5-b66b-c191fdd76ef4|Skipped 0/3 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|179494|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e827d440-240c-11e5-b66b-c191fdd76ef4|Merging data from memtables and 0 sstables|172.31.28.240|179501|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e827d441-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|179523|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e82ba4d0-240c-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 16|172.31.28.240|210856|CompactionExecutor:4
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e82bcbe0-240c-11e5-b66b-c191fdd76ef4|Partition index with 0 entries found for sstable 14|172.31.28.240|211460|CompactionExecutor:4
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e82d5281-240c-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|221331|CompactionExecutor:4
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e82e63f0-240c-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|228123|CompactionExecutor:4
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8331ee0-240c-11e5-b66b-c191fdd76ef4|Executing single-partition query on sstable_activity|172.31.28.240|259061|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8331ee1-240c-11e5-b66b-c191fdd76ef4|Acquiring sstable references|172.31.28.240|259080|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83345f0-240c-11e5-b66b-c191fdd76ef4|Merging memtable tombstones|172.31.28.240|259114|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83345f1-240c-11e5-b66b-c191fdd76ef4|Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones|172.31.28.240|259145|MemtableFlushWriter:3
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8358fe0-240c-11e5-b66b-c191fdd76ef4|Executing seq scan across 2 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|274712|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8358fe1-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|275108|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8360510-240c-11e5-b66b-c191fdd76ef4|Read 3 live and 0 tombstone cells|172.31.28.240|275209|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8360511-240c-11e5-b66b-c191fdd76ef4|Read 3 live and 0 tombstone cells|172.31.28.240|275942|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8362c20-240c-11e5-b66b-c191fdd76ef4|Scanned 3 rows and matched 3|172.31.28.240|275994|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8362c21-240c-11e5-b66b-c191fdd76ef4|Executing seq scan across 2 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|276165|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8362c22-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|276640|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e837d9d0-240c-11e5-b66b-c191fdd76ef4|Read 427 live and 32 tombstone cells|172.31.28.240|290446|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e837d9d1-240c-11e5-b66b-c191fdd76ef4|Read 50 live and 0 tombstone cells|172.31.28.240|290659|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83800e0-240c-11e5-b66b-c191fdd76ef4|Scanned 3 rows and matched 3|172.31.28.240|290722|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83800e1-240c-11e5-b66b-c191fdd76ef4|Executing seq scan across 2 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|290916|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83800e2-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|291431|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8396070-240c-11e5-b66b-c191fdd76ef4|Read 583 live and 264 tombstone cells|172.31.28.240|300048|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8396071-240c-11e5-b66b-c191fdd76ef4|Read 58 live and 0 tombstone cells|172.31.28.240|300256|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8396072-240c-11e5-b66b-c191fdd76ef4|Scanned 3 rows and matched 3|172.31.28.240|300309|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e8398780-240c-11e5-b66b-c191fdd76ef4|Executing seq scan across 3 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|300493|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e839fcb0-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|304822|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83a23c0-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|304891|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83a23c1-240c-11e5-b66b-c191fdd76ef4|Scanned 2 rows and matched 2|172.31.28.240|304950|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83a23c2-240c-11e5-b66b-c191fdd76ef4|Executing seq scan across 3 sstables for (min(-9223372036854775808), min(-9223372036854775808)]|172.31.28.240|305131|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83a4ad0-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|305607|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83a4ad1-240c-11e5-b66b-c191fdd76ef4|Read 0 live and 0 tombstone cells|172.31.28.240|305663|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83a4ad2-240c-11e5-b66b-c191fdd76ef4|Scanned 2 rows and matched 2|172.31.28.240|305720|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83b8350-240c-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|314064|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e83b8351-240c-11e5-b66b-c191fdd76ef4|Adding to local memtable|172.31.28.240|314144|MigrationStage:1
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e84bd701-240c-11e5-b66b-c191fdd76ef4|Appending to commitlog|172.31.28.240|421447|CompactionExecutor:4
+e80b72a0-240c-11e5-b66b-c191fdd76ef4|e84bfe10-240c-11e5-b66b-c191fdd76ef4|Adding to compaction_history memtable|172.31.28.240|422048|CompactionExecutor:4
